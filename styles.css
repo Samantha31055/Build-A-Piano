@@ -7,7 +7,7 @@
 
 /* Style the body */
 body {
-  background-color: #1e4495;
+  background-color: #d14cb0;
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -58,3 +58,10 @@ body {
     margin-right: calc(var(--width) / -2);
     z-index: 2;
 }
+.white.active {
+    background-color: #f00e0e;
+  }
+  
+  .black.active {
+    background-color: #a58d8d;
+  }
